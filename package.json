@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --env production",
-    "build": "webpack --env development"
+    "build": "webpack-dev-server --hot --env development"
   },
   "repository": {
     "type": "git",
@@ -29,9 +29,11 @@
     "optimize-js-plugin": "0.0.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11",
     "style-loader": "^0.23.0",
     "uuid": "^3.3.2",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }
